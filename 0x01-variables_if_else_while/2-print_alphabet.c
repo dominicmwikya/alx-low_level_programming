@@ -7,13 +7,13 @@
  */
 int main(void)
 { 
-	char lowerCase[26] = "abcdefghijklmnopqrstuvwxyz"; 
+	char lowerCase[26] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
-	
+
 	for (i = 0; i < 26; i++)
-        {
+	{
 		putchar(lowerCase[i]);
-       	}
+	}
 	putchar('\n');
-       	return (0);
+	return (0);
 }
