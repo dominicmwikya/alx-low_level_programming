@@ -23,7 +23,6 @@ size_t looped_listint_length(const listint_t *head)
 
 	slow = head->next;
 	fast = (head->next)->next;
-	
 	while (fast)
 	{
 		if (slow == fast)
